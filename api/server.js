@@ -1,6 +1,7 @@
 const express = require('express');
 const helmet = require('helmet');
 
+console.log("ENVIRONMENT: ", process.env.NODE_ENV)
 const apiRouter = require('./api-router.js');
 
 const server = express();
